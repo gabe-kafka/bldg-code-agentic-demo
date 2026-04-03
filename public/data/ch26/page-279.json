@@ -49,7 +49,7 @@
       "id": "ASCE7-22-26.11-formula001",
       "type": "formula",
       "section": "26.11",
-      "text": "R_n = \\frac{7.47 N_1}{(1 + 10.3 N_1)^{5/3}}",
+      "text": "R_n = \\frac{7.47 N_1}{(1 + 10.3 N_1)^{5/3}}     (26.11-13)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -93,7 +93,7 @@
       "id": "ASCE7-22-26.11-formula002",
       "type": "formula",
       "section": "26.11",
-      "text": "N_1 = \\frac{n_1 L_{\\bar{z}}}{\\bar{V}_{\\bar{z}}}",
+      "text": "N_1 = \\frac{n_1 L_{\\bar{z}}}{\\bar{V}_{\\bar{z}}}     (26.11-14)",
       "cross_references": [
         "26.11-9"
       ],
@@ -165,7 +165,7 @@
       "id": "ASCE7-22-26.11-formula003",
       "type": "formula",
       "section": "26.11",
-      "text": "R_h = \\frac{1}{\\eta_h} - \\frac{1}{2\\eta_h^2}(1 - e^{-2\\eta_h})",
+      "text": "R_h = \\frac{1}{\\eta_h} - \\frac{1}{2\\eta_h^2}(1 - e^{-2\\eta_h})     (26.11-15a)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -189,7 +189,7 @@
       "id": "ASCE7-22-26.11-formula004",
       "type": "formula",
       "section": "26.11",
-      "text": "R_B = \\frac{1}{\\eta_B} - \\frac{1}{2\\eta_B^2}(1 - e^{-2\\eta_B})",
+      "text": "R_B = \\frac{1}{\\eta_B} - \\frac{1}{2\\eta_B^2}(1 - e^{-2\\eta_B})     (26.11-15b)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -232,7 +232,7 @@
       "id": "ASCE7-22-26.11-formula005",
       "type": "formula",
       "section": "26.11",
-      "text": "R_L = \\frac{1}{\\eta_L} - \\frac{1}{2\\eta_L^2}(1 - e^{-2\\eta_L})",
+      "text": "R_L = \\frac{1}{\\eta_L} - \\frac{1}{2\\eta_L^2}(1 - e^{-2\\eta_L})     (26.11-15c)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -258,7 +258,7 @@
       "id": "ASCE7-22-26.11-formula006",
       "type": "formula",
       "section": "26.11",
-      "text": "\\eta_h = 4.6n_1h/\\bar{V}_{\\bar{z}}",
+      "text": "\\eta_h = 4.6n_1h/\\bar{V}_{\\bar{z}}     (26.11-16)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -284,7 +284,7 @@
       "id": "ASCE7-22-26.11-formula007",
       "type": "formula",
       "section": "26.11",
-      "text": "\\eta_B = 4.6n_1B/\\bar{V}_{\\bar{z}}",
+      "text": "\\eta_B = 4.6n_1B/\\bar{V}_{\\bar{z}}     (26.11-16)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -334,7 +334,7 @@
       "id": "ASCE7-22-26.11-formula008",
       "type": "formula",
       "section": "26.11",
-      "text": "\\eta_L = 15.4n_1L/\\bar{V}_{\\bar{z}}",
+      "text": "\\eta_L = 15.4n_1L/\\bar{V}_{\\bar{z}}     (26.11-16)",
       "cross_references": [],
       "bbox": {
         "x_start": 0.06,
@@ -379,7 +379,7 @@
       "id": "ASCE7-22-26.11-formula009",
       "type": "formula",
       "section": "26.11",
-      "text": "\\bar{V}_{\\bar{z}} = \\bar{b}\\left(\\frac{\\bar{z}}{33}\\right)^{\\bar{\\alpha}}\\frac{88}{60}V",
+      "text": "\\bar{V}_{\\bar{z}} = \\bar{b}\\left(\\frac{\\bar{z}}{33}\\right)^{\\bar{\\alpha}}\\frac{88}{60}V     (26.11-17)",
       "cross_references": [
         "26.11-1",
         "26.11.4"

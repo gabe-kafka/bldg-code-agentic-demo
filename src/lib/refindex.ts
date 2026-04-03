@@ -76,13 +76,21 @@ export class ReferenceIndex {
     // Strip "Equation "/"Equations " prefix
     const eqMatch = ref.match(/^Equations?\s+\((.+)\)$/)
     if (eqMatch) {
-      return this.map.get(eqMatch[1]) ?? null
+      const num = eqMatch[1]
+      const secFb = num.match(/^(\d+\.\d+(?:\.\d+)?)/)
+      return this.map.get(num) ?? (secFb ? this.map.get(secFb[1]) : null) ?? null
     }
 
     // Bare parenthesized equation ref like "(26.11-10)"
     const bareEq = ref.match(/^\((.+)\)$/)
     if (bareEq) {
       return this.map.get(bareEq[1]) ?? null
+    }
+
+    // Fallback: if ref looks like "26.11-8" (section-equation), try the section part
+    const sectionFallback = ref.match(/^(\d+\.\d+(?:\.\d+)?)-/)
+    if (sectionFallback) {
+      return this.map.get(sectionFallback[1]) ?? null
     }
 
     return null

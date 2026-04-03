@@ -147,11 +147,3 @@ export function toggleTreeNode(nodeId: string): void {
   }
   dispatch('tree')
 }
-
-/** Check if an element ID exists in any loaded page */
-export function resolveElementPage(elementId: string): number | null {
-  for (const [pageNum, page] of state.pages) {
-    if (page.elements.some((el) => el.id === elementId)) return pageNum
-  }
-  return null
-}
