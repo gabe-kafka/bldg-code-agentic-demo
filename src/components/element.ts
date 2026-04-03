@@ -1,8 +1,8 @@
 import { el } from '../lib/dom.ts'
-import { highlightEl, setOverlay, setPage, resolveElementPage } from '../state.ts'
+import { highlightEl, setOverlay, setPage } from '../state.ts'
 import type { PageElement } from '../types.ts'
+import { refIndex } from '../lib/refindex.ts'
 import katex from 'katex'
-import 'katex/dist/katex.min.css'
 
 export function createElement(data: PageElement): HTMLElement {
   // Headings get rendered as bold section-heading style, not as regular elements
@@ -41,8 +41,8 @@ export function createElement(data: PageElement): HTMLElement {
   if (data.cross_references.length > 0) {
     const refs = el('div', { className: 'xref-list' })
     for (const ref of data.cross_references) {
-      const targetPage = resolveElementPage(ref)
-      const isResolved = targetPage !== null
+      const target = refIndex.resolve(ref)
+      const isResolved = target !== null
 
       const link = el('span', {
         className: `xref${!isResolved ? ' xref-broken' : ''}`,
@@ -53,8 +53,8 @@ export function createElement(data: PageElement): HTMLElement {
       if (isResolved) {
         link.addEventListener('click', (e) => {
           e.stopPropagation()
-          setPage(targetPage)
-          highlightEl(ref)
+          setPage(target.page)
+          highlightEl(target.elementId)
         })
       }
       refs.append(link)
@@ -78,15 +78,15 @@ export function createElement(data: PageElement): HTMLElement {
       refsLine.append(document.createTextNode('Refs: '))
       for (let i = 0; i < data.cross_references.length; i++) {
         const ref = data.cross_references[i]
-        const targetPage = resolveElementPage(ref)
+        const target = refIndex.resolve(ref)
         const link = el('span', {
-          className: `xref${targetPage === null ? ' xref-broken' : ''}`,
+          className: `xref${target === null ? ' xref-broken' : ''}`,
         }, [ref])
-        if (targetPage !== null) {
+        if (target !== null) {
           link.addEventListener('click', (e) => {
             e.stopPropagation()
-            setPage(targetPage)
-            highlightEl(ref)
+            setPage(target.page)
+            highlightEl(target.elementId)
           })
         }
         refsLine.append(link)

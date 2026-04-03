@@ -8,6 +8,7 @@ import { asce722Meta } from './mock/ch26-meta.ts'
 import type { Page } from './types.ts'
 import { createDOMLayoutEngine } from './layout/engine.ts'
 import { SearchEngine } from './lib/search.ts'
+import { refIndex } from './lib/refindex.ts'
 import { createStatusBar } from './components/status-bar.ts'
 import { createKpiStrip } from './components/kpi-strip.ts'
 import { createSearchBar, setSearchEngine } from './components/search-bar.ts'
@@ -58,6 +59,8 @@ async function loadChapter26(): Promise<void> {
 
   registerChapterPages('ASCE 7-22', 26, ch26Pages)
   setChapter('ASCE 7-22', 26)
+
+  refIndex.build(state.pages, state.chapterMeta)
 
   const searchEngine = new SearchEngine()
   searchEngine.buildIndex(state.pages)
