@@ -1,0 +1,129 @@
+{
+  "standard": "ASCE 7-22",
+  "chapter": 26,
+  "page": 272,
+  "section_range": [
+    "26.5",
+    "26.5"
+  ],
+  "elements": [
+    {
+      "id": "ASCE7-22-26-figure-26.5-1D",
+      "type": "figure",
+      "section": "26.5",
+      "text": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures.\n\nThis figure shows a wind speed map of the United States displaying basic wind speeds for Risk Category IV buildings and other structures. The map contains contour lines indicating 3-second gust wind speeds in mph at 33 ft (10 m) above ground for Exposure Category C, with values in parentheses showing equivalent speeds in m/s.\n\n[Structured: {\"type\":\"map\",\"geography\":\"Continental United States with state boundaries and coastal areas\",\"parameter\":\"3-second gust wind speeds for Risk Category IV buildings\",\"contour_values\":[\"100(45)\",\"105(47)\",\"110(49)\",\"115(51)\",\"117(52)\",\"120(54)\",\"130(58)\",\"140(63)\",\"150(67)\",\"160(72)\",\"170(76)\",\"175(78)\"],\"measurement_details\":\"Wind speeds in mph at 33 ft (10 m) above ground for Exposure Category C, with m/s values in parentheses\"}]",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.02,
+        "y_end": 0.95
+      },
+      "column": "full",
+      "caption": "Figure 26.5-1D. Basic wind speeds for Risk Category IV buildings and other structures.",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left",
+      "image_url": "/figures/ch26/page-272-fig-0.png"
+    },
+    {
+      "id": "ASCE7-22-26-body-notes1",
+      "type": "body",
+      "section": "26.5",
+      "text": "1. Values are 3 s gust wind speeds in mi/h (m/s) at 33 ft (10 m) above ground for Exposure Category C.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.86,
+        "y_end": 0.89
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-body-notes2",
+      "type": "body",
+      "section": "26.5",
+      "text": "2. Linear interpolation is permitted between contours. Point values are provided to aid with interpolation.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.89,
+        "y_end": 0.92
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-body-notes3",
+      "type": "body",
+      "section": "26.5",
+      "text": "3. Islands, coastal areas, and land boundaries outside the last contour shall use the last wind speed contour.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.92,
+        "y_end": 0.95
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-body-notes4",
+      "type": "body",
+      "section": "26.5",
+      "text": "4. Location-specific basic wind speeds shall be permitted to be determined using the ASCE Wind Design Geodatabase.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.95,
+        "y_end": 0.98
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26.5-reference",
+      "type": "body",
+      "section": "26.5",
+      "text": "Figure in Section 26.14",
+      "cross_references": [
+        "26.14"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.95,
+        "y_end": 0.97
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    }
+  ]
+}

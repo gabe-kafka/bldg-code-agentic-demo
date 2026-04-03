@@ -1,0 +1,197 @@
+{
+  "standard": "ASCE 7-22",
+  "chapter": 26,
+  "page": 273,
+  "section_range": [
+    "26",
+    "26.5"
+  ],
+  "elements": [
+    {
+      "id": "ASCE7-22-26.5-fig1D",
+      "type": "figure",
+      "section": "26.5",
+      "text": "Figure 26.5-1D (Continued). Basic wind speeds for Risk Category IV buildings and other structures.\n\nThis figure shows a wind speed map of the United States displaying basic wind speeds for Risk Category IV buildings and other structures. The map contains contour lines with wind speed values in mph (and m/s in parentheses), ranging from 115 mph in interior regions to 200 mph along the Gulf Coast, with special wind regions marked by dotted patterns.\n\n[Structured: {\"type\":\"map\",\"geography\":\"Continental United States\",\"parameter\":\"Basic wind speeds for Risk Category IV buildings\",\"contour_values\":[\"115(51)\",\"120(54)\",\"125(56)\",\"127(57)\",\"130(58)\",\"140(63)\",\"150(67)\",\"160(72)\",\"170(76)\",\"180(80)\",\"190(85)\",\"200(89)\"],\"special_features\":[\"Special Wind Region marked with dotted pattern\",\"Higher wind speeds concentrated along Gulf Coast and Eastern seaboard\",\"Lower wind speeds in interior continental regions\"]}]",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.03,
+        "y_end": 0.96
+      },
+      "column": "full",
+      "caption": "Figure 26.5-1D (Continued). Basic wind speeds for Risk Category IV buildings and other structures.",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left",
+      "image_url": "/figures/ch26/page-273-fig-0.png"
+    },
+    {
+      "id": "ASCE7-22-26.5-fig1D-table-0",
+      "type": "table",
+      "section": "26.5",
+      "text": "Special Wind Region",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.9099999999999999,
+        "y_end": 0.96
+      },
+      "column": "full",
+      "columns": [
+        "Location",
+        "V (mi/h)",
+        "V (m/s)"
+      ],
+      "rows": [
+        [
+          "American Samoa",
+          "180",
+          "(80)"
+        ],
+        [
+          "Guam & Northern Mariana Islands",
+          "220",
+          "(98)"
+        ],
+        [
+          "Hawaii",
+          "ASCE Wind Design Geodatabase",
+          "ASCE Wind Design Geodatabase"
+        ],
+        [
+          "Puerto Rico",
+          "ASCE Wind Design Geodatabase",
+          "ASCE Wind Design Geodatabase"
+        ],
+        [
+          "U.S. Virgin Islands",
+          "ASCE Wind Design Geodatabase",
+          "ASCE Wind Design Geodatabase"
+        ]
+      ],
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      }
+    },
+    {
+      "id": "ASCE7-22-26.5-prov1",
+      "type": "provision",
+      "section": "26.5",
+      "text": "5. Wind speeds for Hawaii, US Virgin Islands, and Puerto Rico shall be determined from the ASCE Wind Design Geodatabase.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.78,
+        "y_end": 0.81
+      },
+      "column": "full",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26.5-prov2",
+      "type": "provision",
+      "section": "26.5",
+      "text": "6. Mountainous terrain, gorges, ocean promontories, and special wind regions shall be examined for unusual wind conditions. Site-specific values for selected special wind regions shall be permitted to be determined using the ASCE Wind Design Geodatabase.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.82,
+        "y_end": 0.85
+      },
+      "column": "full",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26.5-body1",
+      "type": "body",
+      "section": "26.5",
+      "text": "7. Wind speeds correspond to approximately a 15% probability of exceedance in 50 years (Annual Exceedance Probability = 0.00033, MRI = 3,000 years).",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.86,
+        "y_end": 0.88
+      },
+      "column": "full",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26.5-body2",
+      "type": "body",
+      "section": "26.5",
+      "text": "8. The ASCE Wind Design Geodatabase can be accessed at the ASCE 7 Hazard Tool (https://asce7hazardtool.online) or approved equivalent.",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.94,
+        "y_start": 0.89,
+        "y_end": 0.91
+      },
+      "column": "full",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-heading1",
+      "type": "body",
+      "section": "26",
+      "text": "Minimum Design Loads and Associated Criteria for Buildings and Other Structures",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.94,
+        "y_end": 0.96
+      },
+      "column": "left",
+      "heading": true,
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-page1",
+      "type": "body",
+      "section": "26",
+      "text": "273",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.88,
+        "x_end": 0.94,
+        "y_start": 0.94,
+        "y_end": 0.96
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    }
+  ]
+}

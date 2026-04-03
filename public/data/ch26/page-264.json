@@ -1,0 +1,1073 @@
+{
+  "standard": "ASCE 7-22",
+  "chapter": 26,
+  "page": 264,
+  "section_range": [
+    "26",
+    "26"
+  ],
+  "elements": [
+    {
+      "id": "ASCE7-22-26-def1",
+      "type": "definition",
+      "section": "26",
+      "text": "A_{vg} = Total area of openings in the building envelope, ft² (m²)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.05,
+        "y_end": 0.08
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def2",
+      "type": "definition",
+      "section": "26",
+      "text": "A_{ot} = Sum of the areas of openings in the building envelope (walls and roof) not including A_{vg}, ft² (m²)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.08,
+        "y_end": 0.11
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-A1A2",
+      "type": "definition",
+      "section": "26",
+      "text": "A₁, A₂ = Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ft² (m²)",
+      "cross_references": [
+        "Figure 29.4-11"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.08,
+        "y_end": 0.11
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def3",
+      "type": "definition",
+      "section": "26",
+      "text": "A_s = Gross area of the solid freestanding wall or solid sign, ft² (m²)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.11,
+        "y_end": 0.14
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def4",
+      "type": "definition",
+      "section": "26",
+      "text": "A_1, A_2 = Effective wind area for use with ground-mounted solar panels in Figure 29.4-11, ft² (m²)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.14,
+        "y_end": 0.17
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def5",
+      "type": "definition",
+      "section": "26",
+      "text": "a = Width of pressure coefficient zone, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.17,
+        "y_end": 0.19
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def6",
+      "type": "definition",
+      "section": "26",
+      "text": "a_B = Width of pressure coefficient zone for elevated buildings, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.19,
+        "y_end": 0.22
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def7",
+      "type": "definition",
+      "section": "26",
+      "text": "B = Horizontal dimension of a building measured normal to wind direction, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.22,
+        "y_end": 0.25
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def8",
+      "type": "definition",
+      "section": "26",
+      "text": "\\bar{b} = Mean hourly wind speed factor in Equation (26.11-16), from Table 26.11-1",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.25,
+        "y_end": 0.28
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-d1",
+      "type": "definition",
+      "section": "26",
+      "text": "d₁ = For rooftop solar arrays, horizontal distance orthogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equipment in Figure 29.4-7, ft (m)",
+      "cross_references": [
+        "Figure 29.4-7"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.26,
+        "y_end": 0.31
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def9",
+      "type": "definition",
+      "section": "26",
+      "text": "\\hat{b} = Three-second gust speed factor from Table 26.11-1",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.28,
+        "y_end": 0.3
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def10",
+      "type": "definition",
+      "section": "26",
+      "text": "C_f = Force coefficient to be used in determination of wind loads for other structures",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.3,
+        "y_end": 0.33
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-d2",
+      "type": "definition",
+      "section": "26",
+      "text": "d₂ = For rooftop solar arrays, horizontal distance from the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7, ft (m)",
+      "cross_references": [
+        "Figure 29.4-7"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.31,
+        "y_end": 0.35
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def11",
+      "type": "definition",
+      "section": "26",
+      "text": "C_N = Net pressure coefficient to be used in determination of wind loads for open buildings",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.33,
+        "y_end": 0.36
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def12",
+      "type": "definition",
+      "section": "26",
+      "text": "C_p = External pressure coefficient to be used in determination of wind loads for buildings",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.36,
+        "y_end": 0.39
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def13",
+      "type": "definition",
+      "section": "26",
+      "text": "c = Turbulence intensity factor in Equation (26.11-7), from Table 26.11-1",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.39,
+        "y_end": 0.42
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCgn-dynamic",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gn})_{dynamic} = Dynamic net pressure coefficient for ground-mounted solar panels from Figure 29.4-11",
+      "cross_references": [
+        "Figure 29.4-11"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.41,
+        "y_end": 0.43
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def14",
+      "type": "definition",
+      "section": "26",
+      "text": "D = Diameter of a circular structure or member, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.42,
+        "y_end": 0.44
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCgm-dynamic",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gm})_{dynamic} = Dynamic moment coefficient for ground-mounted solar panels from Figure 29.4-11",
+      "cross_references": [
+        "Figure 29.4-11"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.43,
+        "y_end": 0.46
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def15",
+      "type": "definition",
+      "section": "26",
+      "text": "D' = Depth of protruding elements such as ribs and spoilers, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.44,
+        "y_end": 0.47
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCgn-static",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gn})_{static} = Static net pressure coefficient for ground-mounted solar panels from Figure 29.4-10",
+      "cross_references": [
+        "Figure 29.4-10"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.46,
+        "y_end": 0.48
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def16",
+      "type": "definition",
+      "section": "26",
+      "text": "d_g = Horizontal distance of Zone 2 for ground-mounted solar panels in Figure 29.4.9, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.47,
+        "y_end": 0.5
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCgm-static",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gm})_{static} = Static moment coefficient for ground-mounted solar panels from Figure 29.4-10",
+      "cross_references": [
+        "Figure 29.4-10"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.48,
+        "y_end": 0.51
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def17",
+      "type": "definition",
+      "section": "26",
+      "text": "d_x = Horizontal buffer for ground-mounted solar panels in Figure 29.4.9, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.5,
+        "y_end": 0.53
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def18",
+      "type": "definition",
+      "section": "26",
+      "text": "d_1 = For rooftop solar arrays, horizontal distance orthogonal to the panel edge to an adjacent panel or the building edge, ignoring any rooftop equipment in Figure 29.4-7, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.53,
+        "y_end": 0.58
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-def19",
+      "type": "definition",
+      "section": "26",
+      "text": "d_2 = For rooftop solar arrays, horizontal distance from the edge of one panel to the nearest edge in the next row of panels in Figure 29.4-7, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.58,
+        "y_end": 0.63
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCpn",
+      "type": "definition",
+      "section": "26",
+      "text": "(GCpn) = Combined net pressure coefficient for a parapet (GCr) = Product of external pressure coefficient and gust-effect factor to be used in determination of wind loads for rooftop structures",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.62,
+        "y_end": 0.63
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def20",
+      "type": "definition",
+      "section": "26",
+      "text": "F = Design wind force for other structures, lb (N)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.63,
+        "y_end": 0.65
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCr",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_r) = Product of external pressure coefficient and gust-effect factor to be used in determination of wind loads for rooftop structures",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.63,
+        "y_end": 0.66
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def21",
+      "type": "definition",
+      "section": "26",
+      "text": "F_{gn} = Normal force for ground-mounted solar panels in Figure 29.4-9, lb (N)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.65,
+        "y_end": 0.68
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCrn",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{rn}) = Net pressure coefficient for rooftop solar panels in Equations (29.4-4) and (29.4-5)",
+      "cross_references": [
+        "Equations (29.4-4)",
+        "(29.4-5)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.66,
+        "y_end": 0.68
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def22",
+      "type": "definition",
+      "section": "26",
+      "text": "G = Gust-effect factor",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.68,
+        "y_end": 0.7
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-GCrn-nom",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{rn})_{nom} = Nominal net pressure coefficient for rooftop solar panels determined from Figure 29.4-7, ft⁻¹",
+      "cross_references": [
+        "Figure 29.4-7"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.68,
+        "y_end": 0.71
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def23",
+      "type": "definition",
+      "section": "26",
+      "text": "G_f = Gust-effect factor for MWFRS of flexible buildings and other structures",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.7,
+        "y_end": 0.73
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-go",
+      "type": "definition",
+      "section": "26",
+      "text": "g₀ = Peak factor for background response in Equations (26.11-6) and (26.11-10)",
+      "cross_references": [
+        "Equations (26.11-6)",
+        "(26.11-10)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.71,
+        "y_end": 0.73
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def24",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gn dynamic}) = Dynamic net pressure coefficient for ground-mounted solar panels from Figure 29.4-11",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.73,
+        "y_end": 0.76
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-gR",
+      "type": "definition",
+      "section": "26",
+      "text": "g_R = Peak factor for resonant response in Equation (26.11-10)",
+      "cross_references": [
+        "Equation (26.11-10)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.73,
+        "y_end": 0.75
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-definition-gv",
+      "type": "definition",
+      "section": "26",
+      "text": "g_v = Peak factor for wind response in Equations (26.11-6) and (26.11-10)",
+      "cross_references": [
+        "Equations (26.11-6)",
+        "(26.11-10)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.75,
+        "y_end": 0.77
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def25",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gm dynamic}) = Dynamic moment coefficient for ground-mounted solar panels from Figure 29.4-11",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.76,
+        "y_end": 0.79
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-H",
+      "type": "definition",
+      "section": "26",
+      "text": "H = Height of hill, ridge, or escarpment in Figure 26.8-1, ft (m)",
+      "cross_references": [
+        "Figure 26.8-1"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.77,
+        "y_end": 0.79
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def26",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gn static}) = Static net pressure coefficient for ground-mounted solar panels from Figure 29.4-10",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.79,
+        "y_end": 0.82
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-h",
+      "type": "definition",
+      "section": "26",
+      "text": "h = Mean roof height of a building or height of other structure, except that eave height shall be used for roof angle θ less than or equal to 10 degrees, in ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.79,
+        "y_end": 0.83
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def27",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{gm static}) = Static moment coefficient for ground-mounted solar panels from Figure 29.4-10",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.82,
+        "y_end": 0.85
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-hB",
+      "type": "definition",
+      "section": "26",
+      "text": "h_B = Height above grade of the bottom surface of the elevated building, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.83,
+        "y_end": 0.85
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def28",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_p) = Product of external pressure coefficient and gust-effect factor to be used in determination of wind loads for buildings",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.85,
+        "y_end": 0.88
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-hc",
+      "type": "definition",
+      "section": "26",
+      "text": "h_c = Height of the solid cylinder, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.85,
+        "y_end": 0.86
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-definition-he",
+      "type": "definition",
+      "section": "26",
+      "text": "he = Height of the solid cylinder, ft (m) hv = Roof eave height at a particular wall, or the average height if the eave varies along the wall",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.86,
+        "y_end": 0.89
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def29",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{pf}) = Product of the equivalent external pressure coefficient and gust-effect factor to be used in determination of wind loads for MWFRS of low-rise buildings",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.88,
+        "y_end": 0.92
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-hn",
+      "type": "definition",
+      "section": "26",
+      "text": "h_n = Height to top of parapet in Figures 27.5-2 and 30.6-1",
+      "cross_references": [
+        "Figures 27.5-2",
+        "30.6-1"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.89,
+        "y_end": 0.91
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-definition-hpn",
+      "type": "definition",
+      "section": "26",
+      "text": "h_{pn} = Mean parapet height above the adjacent roof surface for use with Equation (29.4-5), ft (m)",
+      "cross_references": [
+        "Equation (29.4-5)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.91,
+        "y_end": 0.93
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-def30",
+      "type": "definition",
+      "section": "26",
+      "text": "(GC_{pi}) = Product of internal pressure coefficient and gust-effect factor to be used in determination of wind loads for buildings",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.06,
+        "x_end": 0.48,
+        "y_start": 0.92,
+        "y_end": 0.95
+      },
+      "column": "left",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "left"
+    },
+    {
+      "id": "ASCE7-22-26-definition-h1",
+      "type": "definition",
+      "section": "26",
+      "text": "h₁ = Height of a solar panel above the roof at the lower edge of the panel, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.93,
+        "y_end": 0.95
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-definition-h2",
+      "type": "definition",
+      "section": "26",
+      "text": "h₂ = Height of a solar panel above the roof at the upper edge of the panel, ft (m)",
+      "cross_references": [],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.95,
+        "y_end": 0.97
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    },
+    {
+      "id": "ASCE7-22-26-definition-Iz",
+      "type": "definition",
+      "section": "26",
+      "text": "I_z = Intensity of turbulence in Equation (26.11-7)",
+      "cross_references": [
+        "Equation (26.11-7)"
+      ],
+      "bbox": {
+        "x_start": 0.52,
+        "x_end": 0.94,
+        "y_start": 0.97,
+        "y_end": 0.98
+      },
+      "column": "right",
+      "metadata": {
+        "extracted_by": "vision-clone",
+        "qc_status": "pending"
+      },
+      "_source": "right"
+    }
+  ]
+}
